@@ -1,0 +1,25 @@
+<div class="container-fluid">
+    <h2 class="text-center">Write new Quote</h2>
+    <hr>
+    <form (ngSubmit)='submitQuote()' #quoteForm='ngForm'>
+        <div class="form-group">
+
+            <label for="name">Author</label>
+            <input type="text" required class="form-control" id="name" [(ngModel)]="newQuote.author" name=" name">
+
+
+
+
+        <div class="form-group">
+
+            <label for="quote">Quote</label>
+            <textarea class="form-control" id="description" rows="4"[(ngModel)]="newQuote.name" name="name" #description="ngModel"  required></textarea>
+
+        <div class="form-group">
+            <label for="complete">Date</label>
+            <input type='date' id="complete" [(ngModel)]="newQuote.completeDate" name="completeDate" #completeDate="ngModel"required>
+
+        <button type="submit" class="btn btn-success">AddQuote</button>
+
+  </div>
+
