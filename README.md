@@ -1,6 +1,10 @@
-# Quotes
+#Quotes
+By Markian Mumba
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 8.0.6.
+#Description
+This application contains quotes that are ment to challenge one's intelectual and integrity
+
+This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 6.2.4.
 
 ## Development server
 
@@ -22,6 +26,21 @@ Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.
 
 Run `ng e2e` to execute the end-to-end tests via [Protractor](http://www.protractortest.org/).
 
-## Further help
+# Prerequisites
+You will need the following things properly installed on your computer.
 
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI README](https://github.com/angular/angular-cli/blob/master/README.md).
+* vs code
+* git
+* github
+
+# Github-link
+https://github.com/cliffnyendwe/my-quotes.git
+
+# Contacts
+Email Address; markmumba01@gmail.com
+# License
+The project is under license by MIT
+
+# Code Example
+Kindly to access code clone the repository.
+
