@@ -14,9 +14,9 @@ export class DateCountPipe implements PipeTransform {
       var dateCounter = dateDifferenceSeconds / secondsInDay;
 
       if (dateCounter >= 1 && value > todayWithNoTime) {
-        return 0;
-      } else {
         return dateCounter;
+      } else {
+        return 0 ;
       }
     }
   }
