@@ -1,7 +1,7 @@
-#Quotes
+# Quotes
 By Markian Mumba
 
-#Description
+# Description
 This application contains quotes that are ment to challenge one's intelectual and integrity
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 6.2.4.

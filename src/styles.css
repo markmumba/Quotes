@@ -1,7 +1,8 @@
 /* @import "~bootstrap/dist/css/bootstrap.css" */
 body{
-  font-family: 'Sniglet', cursive;
+  font-family: 'Patrick Hand', cursive;
   background-image: url(./assets/pics/yy.png);
   color: aliceblue;
+  font-size: 40px;
 
 }

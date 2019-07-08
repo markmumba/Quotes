@@ -5,8 +5,15 @@
     <div class="row">
       <div class="col-md-6">
         <div *ngFor='let quote of Quotes; let i = index'>
-          <h4 id={{i}} appStrikethrough> {{quote.name}} uploaded on  {{quote.completeDate|date}}</h4>
-          <button (click)='toggleDetails(i)' class="btn btn-primary">show Author</button>
+          <h4 id={{i}} appStrikethrough> {{quote.name+" "+quote.author}} uploaded on  {{quote.completeDate|date}}</h4>
+
+          <button (click)='toggleDetails(i)' class="btn btn-primary">show author</button>
+          <button (click)= "quote.upvote =quote.upvote + 1" class ="btn btn-success">Like it
+            {{quote.upvote}}
+          </button>
+          <button (click)="quote.downvote = quote.downvote + 1"class ="btn btn-danger">Dislike it
+            {{quote.downvote}}
+          </button>
           <app-quote-details *ngIf='quote.showDescription' [quotes]='Quotes' (isComplete)='completeQuote($event,i)'>
           </app-quote-details>
         </div>
@@ -15,3 +22,4 @@
         <app-quote-form (addQuote)="addNewQuote($event)"></app-quote-form>
       </div>
    </div>
+

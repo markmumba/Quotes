@@ -10,12 +10,13 @@ export class QuoteComponent implements OnInit {
 
  Quotes: Quote[] = [
 // tslint:disable-next-line: max-line-length
-    new Quote ( 1, 'If four things are followed - having a great aim, acquiring knowledge, hard work, and perseverance - then anything can be achieved.', 'Albert Einstein', new Date (2019, 3 , 14)),
+    new Quote ( 1, 'If four things are followed - having a great aim, acquiring knowledge, hard work, and perseverance - then anything can be achieved.', 'Albert Einstein', 0, 0, new Date (2019, 3 , 14)),
 // tslint:disable-next-line: max-line-length
-    new Quote ( 2, 'Two things are infinite: the universe and human stupidity; and Im not sure about the universe.', 'Albert Einstein', new Date (2019, 3, 14) ),
-    new Quote ( 3, 'If you cant explain it to a six year old, you dont understand it yourself.', 'Albert Einstein', new Date (2019, 3, 14)),
+    new Quote ( 2, 'Two things are infinite: the universe and human stupidity; and Im not sure about the universe.', 'Albert Einstein', 0 , 0 , new Date (2019, 3, 14) ),
+// tslint:disable-next-line: max-line-length
+   new Quote ( 3, 'If you cant explain it to a six year old, you dont understand it yourself.', 'Albert Einstein', 0 , 0, new Date (2019, 3, 14)),
 // tslint:disable-next-line: whitespace
-    new Quote ( 4,'Logic will get you from A to Z; imagination will get you everywhere.','Albert Einstein', new Date (2019,3,14)),
+    new Quote ( 4,'Logic will get you from A to Z; imagination will get you everywhere.','Albert Einstein',0,0,new Date (2019,3,14)),
    ];
 
    toggleDetails(index: string | number) {

@@ -10,7 +10,7 @@ import { QuoteDetailsComponent } from '../quote-details/quote-details.component'
 export class QuoteFormComponent implements OnInit {
 
 // tslint:disable-next-line: new-parens
-  newQuote = new Quote(0, '', '', new Date);
+  newQuote = new Quote(0, '', '', 0, 0, new Date);
   @Output() addQuote = new EventEmitter<Quote>();
   submitQuote() {
     this.addQuote.emit(this.newQuote);
