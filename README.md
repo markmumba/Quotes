@@ -34,7 +34,7 @@ You will need the following things properly installed on your computer.
 * github
 
 # Github-link
-https://github.com/cliffnyendwe/my-quotes.git
+https://github.com/markmumba.io/Quotes.git
 
 # Contacts
 Email Address; markmumba01@gmail.com
